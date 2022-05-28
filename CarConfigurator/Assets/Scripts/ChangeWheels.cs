@@ -20,7 +20,7 @@ public class ChangeWheels : MonoBehaviour
     {
         Destroy(instantiatedWheels);
 
-        if (wheelsCounter >= spawnWheels.Length - 1)
+        if (wheelsCounter > spawnWheels.Length - 1)
         {
             wheelsCounter = 0;
         }
